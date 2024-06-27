@@ -35,5 +35,6 @@ Eg - git remote add origin https://github.com/Samhan097/Github/
 
 Finally, push your code to GitHub using `git push -u origin main`. If you're using a different branch instead of the main, replace main with your branch name.
 
-#React 
-## To Install React in specific folder. Go to terminal and type "npx create-react-app ."
+# React 
+## To Install React in specific folder
+Go to terminal and type "npx create-react-app ."
