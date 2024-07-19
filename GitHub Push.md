@@ -11,21 +11,24 @@
    ```
    This stages all changes for the next commit. You can also specify individual files instead of using `.`.
 
-3. **Commit your changes:**
+3. **Commit your changes with a descriptive message:**
    ```bash
    git commit -m "Your commit message"
    ```
-   Replace `"Your commit message"` with a brief description of what you've changed.
 
-4. **Add a remote repository (if you haven't already):**
+4. ** Do If Need - Pull any changes from the remote repository to ensure your local branch is up-to-date:**
    ```bash
-   git remote add origin <remote_repository_URL>
+   git pull origin main
    ```
-   Replace `<remote_repository_URL>` with the URL of your Git repository.
+   Replace `main` with your branch name if it's different. Resolve any merge conflicts if they arise.
 
-5. **Push your changes:**
+5. **Push your changes to the remote repository:**
    ```bash
-   git push origin main
+   git push 
+   ```
+   OR
+   ```bash
+   git push origin main 
    ```
    Replace `main` with the branch name you're working on if it's different (e.g., `master` or `dev`).
 
