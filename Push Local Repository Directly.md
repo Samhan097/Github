@@ -44,7 +44,3 @@ Finally, push your code to GitHub using `git push -u origin master` or `git push
 
 ## Finally
 then you can see your code will uploaded to your github. if you added readme file already in the your github repo then you want to compare& pull the code to github. 
-
-# React 
-## To Install React in specific folder
-Go to terminal and type "npx create-react-app ."
