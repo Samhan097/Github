@@ -23,17 +23,27 @@ Use `git add .` to add all files to the staging area. If you only want to add sp
 
 Commit the changes using `git commit -m "Initial commit"`.
 
+## Create a repository in GitHub same name as the local repository
+Don't add readme file in your github repository if the readme file already in the local repository.
+If the name of your local repository is 'Reviews' Then create a repository in github as same name with 'Reviews'. 
+
 ## Link your local repository to the GitHub repository:
 
 Copy the URL of your GitHub repository.
 
 In the terminal, add the remote repository using `git remote add origin <repository_url>`. Replace <repository_url> with the URL you copied.
 
-Eg - git remote add origin https://github.com/Samhan097/Github/
+Eg - git remote add origin https://github.com/Samhan097/Reviews.git
+
+## error: remote origin already exists.
+If this error occurs, type `git remote remove origin` and add new repository url `git remote add origin <new-repository-url>`
 
 ## Push your code to GitHub:
 
-Finally, push your code to GitHub using `git push -u origin main`. If you're using a different branch instead of the main, replace main with your branch name.
+Finally, push your code to GitHub using `git push -u origin master` or `git push -u origin main`. You can see the branch name in the top left corner in the vscode. If you're using a different branch instead of the main, replace main with your branch name.
+
+## Finally
+then you can see your code will uploaded to your github. if you added readme file already in the your github repo then you want to compare& pull the code to github. 
 
 # React 
 ## To Install React in specific folder
