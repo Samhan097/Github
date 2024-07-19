@@ -1,4 +1,4 @@
-# Github
+# Push Local Repository Directly to GitHub 
 In here you can create a project first in laptop after the completion of project you can push it to Github. To add your project from your laptop to GitHub, you'll need to follow these general steps:
 
 ## Create a GitHub repository:
