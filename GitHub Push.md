@@ -35,11 +35,6 @@
 If you encounter any errors, make sure you have the necessary permissions and that your branch is up-to-date with the remote repository.
 
 # Merge dev into dev-1
-# Make sure you are on dev-1
-git checkout dev-1
-
-# Bring dev changes into dev-1
-
 1. **Switch to your `dev-1` branch:**
 
 ```bash
