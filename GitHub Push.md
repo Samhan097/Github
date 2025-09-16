@@ -53,7 +53,3 @@ git merge dev
 git add .
 git commit -m "Merge dev into dev-1"
 ```
-
----
-
-If you want, I can also rewrite it in a **complete workflow from updating `dev` to merging into `dev-1`**, so it’s ready to copy-paste. Do you want me to do that?
