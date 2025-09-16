@@ -33,3 +33,32 @@
    Replace `main` with the branch name you're working on if it's different (e.g., `master` or `dev`).
 
 If you encounter any errors, make sure you have the necessary permissions and that your branch is up-to-date with the remote repository.
+
+# Merge dev into dev-1
+# Make sure you are on dev-1
+git checkout dev-1
+
+# Bring dev changes into dev-1
+
+1. **Switch to your `dev-1` branch:**
+
+```bash
+git checkout dev-1
+```
+
+2. **Merge the latest changes from `dev` into `dev-1`:**
+
+```bash
+git merge dev
+```
+
+3. **Resolve any merge conflicts** (if Git prompts you) and commit the merge:
+
+```bash
+git add .
+git commit -m "Merge dev into dev-1"
+```
+
+---
+
+If you want, I can also rewrite it in a **complete workflow from updating `dev` to merging into `dev-1`**, so it’s ready to copy-paste. Do you want me to do that?
